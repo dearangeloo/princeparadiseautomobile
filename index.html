@@ -35,7 +35,7 @@
 <nav class="navbar" id="navbar">
   <div class="nav-container">
     <a href="#home" class="nav-logo">
-      <img src="images/logo.png" alt="Prince Paradise Automobiles"/>
+      <img src="images/logo.png" alt="Prince Paradise Automobiles" style="height:60px;width:auto;filter:none;"/>
     </a>
     <ul class="nav-links" id="navLinks">
       <li><a href="#home" onclick="closeMenu()">Home</a></li>
@@ -334,6 +334,28 @@
 
       <div class="vehicle-card dark-card" data-category="bike">
         <div class="vehicle-img-wrap">
+          <img src="images/dihao-ev60.png" alt="Dihao EV60"/>
+          <span class="vehicle-badge ev">2000W</span>
+        </div>
+        <div class="vehicle-info">
+          <h3>Dihao EV60</h3>
+          <p class="vehicle-sub">72V 2000W High-Speed Electric Delivery Motorcycle</p>
+          <div class="vehicle-specs">
+            <span><i class="fas fa-bolt"></i> 2000W Motor</span>
+            <span><i class="fas fa-battery-full"></i> 72V System</span>
+            <span><i class="fas fa-motorcycle"></i> Delivery Ready</span>
+          </div>
+          <div class="vehicle-actions">
+            <button class="btn-add-cart" onclick="addToCart('Dihao EV60', '72V 2000W Electric Delivery Motorcycle')">
+              <i class="fas fa-plus"></i> Add to Enquiry
+            </button>
+            <a href="#preorder" class="btn-preorder">Preorder</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="vehicle-card dark-card" data-category="bike">
+        <div class="vehicle-img-wrap">
           <img src="images/adv-180cc.jpg" alt="180cc ADV Motorcycle"/>
           <span class="vehicle-badge hybrid">180cc</span>
         </div>
@@ -556,6 +578,7 @@
             <option>BYD Atto 3 – Full Electric SUV</option>
             <option>2025 Changan Deepal S09 – EREV SUV</option>
             <option>Sinotruk HOWO 371 – Dump Truck</option>
+            <option>Dihao EV60 – 72V 2000W Electric Delivery Motorcycle</option>
             <option>High-Power Electric Scooter</option>
             <option>Tailg D3000 Electric Scooter</option>
             <option>180cc ADV Sport Motorcycle</option>
